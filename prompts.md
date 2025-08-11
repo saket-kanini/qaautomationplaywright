@@ -1,8 +1,4 @@
-Great thinking, Saket. Here's a **step-by-step roadmap** to set up your Playwright + TypeScript automation framework using the [Automation Exercise Products page](https://automationexercise.com/products) as your reference target.
-
----
-
-## 🧭 Step-by-Step Setup for QA Automation Framework
+## Step-by-Step Setup for QA Automation Framework
 
 ### ✅ Step 1: Initialize the Project
 ```bash
@@ -76,7 +72,3 @@ Use:
 npx playwright test --headed
 ```
 Refactor based on test outcomes and modularize further.
-
----
-
-Would you like me to generate the actual `ProductsPage.ts` and a sample test file for validating product titles and prices? That could be your reusable QA showcase for interviews or freelance onboarding.

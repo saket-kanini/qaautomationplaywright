@@ -1,25 +1,24 @@
 import { test, expect } from '@playwright/test';
+import { ProductsPage } from '../../pages/productsPage';
 
-// Starter test: Visit the products page and validate product titles
+test.describe('Products Page', () => {
+  let productsPage: ProductsPage;
 
-test('Visit products page and validate product titles', async ({ page }) => {
-  // Navigate to the products page
-  await page.goto('https://automationexercise.com/products');
+  test.beforeEach(async ({ page }) => {
+    productsPage = new ProductsPage(page);
+    await productsPage.goto();
+  });
 
-  // Wait for product titles to be visible
-  await page.waitForSelector('.productinfo.text-center p');
+  test('should display at least one product title', async () => {
+    // Arrange done in beforeEach
+    // Act
+    const productTitles = await productsPage.getAllProductTitles();
+    // Assert
+    expect(productTitles.length).toBeGreaterThan(0);
+  });
 
-  // Get all product title elements
-  const productTitles = await page.$$eval('.productinfo.text-center p', elements =>
-    elements.map(el => el.textContent?.trim() || '')
-  );
-
-  // Validate that at least one product title is present
-  expect(productTitles.length).toBeGreaterThan(0);
-
-  // Optionally, print product titles to the console
-  console.log('Product Titles:', productTitles);
-
-  // Example: Validate a specific product title exists (customize as needed)
-  // expect(productTitles).toContain('Blue Top');
+  test('should contain "Blue Top" in product titles', async () => {
+    const productTitles = await productsPage.getAllProductTitles();
+    expect(productTitles).toContain('Blue Top');
+  });
 });

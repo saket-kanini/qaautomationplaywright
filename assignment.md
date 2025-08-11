@@ -1,6 +1,6 @@
-## 🧪 Assignment: Functional Test Automation with Playwright + TypeScript
+## Assignment: Functional Test Automation with Playwright + TypeScript
 
-### 🔗 Target Web Application
+### Target Web Application
 Explore and automate the following site:
 **[https://automationexercise.com/products](https://automationexercise.com/products)**
 
@@ -8,7 +8,7 @@ This page lists a variety of products with prices, titles, and “Add to cart”
 
 ---
 
-### 📋 Assignment Objectives
+### Assignment Objectives
 
 - Understand the structure and behavior of the Products page.
 - Develop an end-to-end UI test suite using Playwright and TypeScript.
@@ -17,7 +17,7 @@ This page lists a variety of products with prices, titles, and “Add to cart”
 
 ---
 
-### 🧰 Tech Stack
+### Tech Stack
 
 | Category         | Tools / Frameworks                          |
 |------------------|---------------------------------------------|
@@ -29,7 +29,7 @@ This page lists a variety of products with prices, titles, and “Add to cart”
 
 ---
 
-### 📁 Deliverables
+### Deliverables
 
 | Category              | Item                                                                 |
 |-----------------------|----------------------------------------------------------------------|
@@ -45,7 +45,7 @@ This page lists a variety of products with prices, titles, and “Add to cart”
 
 ---
 
-### 📌 Evaluation Rubric
+### Evaluation Rubric
 
 | Area                  | Criteria                                                                 |
 |-----------------------|--------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ This page lists a variety of products with prices, titles, and “Add to cart”
 
 ---
 
-### ⏱ Estimated Effort
+### Estimated Effort
 
 **16–24 hours**  
 This includes setup, test design, implementation, debugging, and documentation.
