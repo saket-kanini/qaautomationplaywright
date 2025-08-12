@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["QA Automation", "Playwright", "TypeScript"],
+  "author": "Saket P",
   "license": "ISC",
-  "description": "",
+  "description": "QA Automation using typescript and playwright.",
   "devDependencies": {
     "@playwright/test": "^1.54.2",
     "playwright": "^1.54.2",

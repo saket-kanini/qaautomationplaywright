@@ -17,14 +17,14 @@ This repository contains end-to-end test automation using Playwright and TypeScr
 > Utilize Playwright's trace viewer and reporting features for debugging and analysis.
 > Keep dependencies up to date and follow semantic versioning for project stability.
 
-## 📁 Folder Overview
+## Folder Overview
 
 - `/tests/` → Contains test cases organized by feature
 - `/pages/` → Page Object classes for each screen
 - `/utils/` → Reusable helpers and data providers
 - `/config/` → Test runner and environment settings
 
-## ✅ Coding Conventions & Best Practices
+## Coding Conventions & Best Practices
 
 - Use `expect()` for assertions.
 - Follow the Arrange–Act–Assert structure in tests.
@@ -37,7 +37,7 @@ This repository contains end-to-end test automation using Playwright and TypeScr
 - Enable Playwright's trace viewer and HTML reports for easier debugging (`npx playwright show-report`).
 - Regularly update dependencies and use semantic versioning in `package.json`.
 
-## 🔍 Additional Recommendations
+## Additional Recommendations
 
 - Use semantic selectors (`data-testid`, `aria-label`, `role`) for robust element targeting.
 - Parameterize test data and use data-driven testing where possible.
