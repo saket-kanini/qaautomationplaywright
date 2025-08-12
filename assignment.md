@@ -33,15 +33,15 @@ This page lists a variety of products with prices, titles, and “Add to cart”
 
 | Category              | Item                                                                 |
 |-----------------------|----------------------------------------------------------------------|
-| ✅ Test Case Design    | Create a test plan with **at least 10 scenarios** (include 2 negative cases) |
-| ✅ Page Object Model   | Implement reusable page objects for the Products page               |
-| ✅ Test Implementation | Use proper locators, assertions, and logging                        |
-| ✅ Config Management   | Add a config file (`env.json`) to store base URL and settings       |
-| ✅ Code Quality        | Follow modular design and SOLID principles where applicable         |
-| ✅ Wait Strategy       | Use explicit waits and retry logic for flaky elements               |
-| ✅ Test Data Handling  | Simulate data using JSON or parameterized tests                     |
-| ✅ README              | Include a README with setup instructions and test execution steps   |
-| ✅ Optional            | Include a test results file (e.g., HTML report or console output)   |
+| Test Case Design    | Create a test plan with **at least 10 scenarios** (include 2 negative cases) |
+| Page Object Model   | Implement reusable page objects for the Products page               |
+| Test Implementation | Use proper locators, assertions, and logging                        |
+| Config Management   | Add a config file (`env.json`) to store base URL and settings       |
+| Code Quality        | Follow modular design and SOLID principles where applicable         |
+| Wait Strategy       | Use explicit waits and retry logic for flaky elements               |
+| Test Data Handling  | Simulate data using JSON or parameterized tests                     |
+| README              | Include a README with setup instructions and test execution steps   |
+| Optional            | Include a test results file (e.g., HTML report or console output)   |
 
 ---
 
