@@ -3,7 +3,7 @@
 
 ## Purpose
 
-This repository contains end-to-end test automation using Playwright and TypeScript. It targets key user journeys such as login, provider search, and file upload.
+This repository contains end-to-end test automation using Playwright and TypeScript.
 
 ## Copilot Guidance
 
