@@ -1,16 +1,16 @@
 {
-  "name": "qa_automation_usingplaywright_new",
+  "name": "automation-testing-using-playwright",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "test": "node ./node_modules/.bin/playwright test",
-  "test:headed": "node ./node_modules/.bin/playwright test --headed",
-  "test:ui": "node ./node_modules/.bin/playwright test --ui",
-  "report": "node ./node_modules/.bin/playwright show-report"
+  "test": "npx playwright test",
+  "test:headed": "npx playwright test --headed",
+  "test:ui": "npx playwright test --ui",
+  "report": "npx playwright show-report"
   },
   "keywords": ["QA Automation", "Playwright", "TypeScript"],
   "author": "Saket P",
-  "license": "ISC",
+  "license": "None",
   "description": "QA Automation using typescript and playwright.",
   "devDependencies": {
     "@playwright/test": "^1.54.2",

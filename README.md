@@ -47,6 +47,3 @@ This project provides end-to-end automated testing for the products page of [aut
 - `waitForSelectorWithRetries`: Waits for a selector with retries and timeout.
 - `testDataLoader`: Loads product names from a JSON file.
 - `envHelper`: Reads environment variables from `env.json`.
-
-## License
-MIT
