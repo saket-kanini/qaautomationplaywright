@@ -1,5 +1,3 @@
-## Step-by-Step Setup for QA Automation Framework
-
 ### Step 1: Initialize the Project
 ```bash
 npm init -y

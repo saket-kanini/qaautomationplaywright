@@ -1,12 +1,37 @@
-
 import { Page } from '@playwright/test';
 import { getBaseUrl } from '../utils/envHelper';
+
 
 export class ProductsPage {
   readonly page: Page;
 
   constructor(page: Page) {
     this.page = page;
+  }
+
+  // Returns all product card locators
+  getAllProductCardLocators() {
+    return this.page.locator('.productinfo.text-center');
+  }
+
+  // Returns all product card element handles (for legacy/test compatibility)
+  async getAllProductCardHandles() {
+    return this.page.$$('.productinfo.text-center');
+  }
+
+  // Returns all product wrapper locators
+  getAllProductWrapperLocators() {
+    return this.page.locator('.product-image-wrapper');
+  }
+
+  // Returns all product image element handles
+  async getAllProductImageHandles() {
+    return this.page.$$('.productinfo.text-center img');
+  }
+
+  // Returns all product image locators
+  getAllProductImageLocators() {
+    return this.page.locator('.productinfo.text-center img');
   }
 
   async goto() {
@@ -39,4 +64,5 @@ export class ProductsPage {
     const viewProductBtn = cardParent.locator('a:has-text("View Product")');
     await viewProductBtn.first().click();
   }
+  
 }
