@@ -1,5 +1,6 @@
 import { Page } from '@playwright/test';
 
+// Page Object for the Product Details page
 export class ProductDetailsPage {
   readonly page: Page;
 

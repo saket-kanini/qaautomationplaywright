@@ -1,7 +1,7 @@
 import { Page } from '@playwright/test';
 import { getBaseUrl } from '../utils/envHelper';
 
-
+// Page Object for the Products page
 export class ProductsPage {
   readonly page: Page;
 

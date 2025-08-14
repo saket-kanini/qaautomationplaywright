@@ -1,5 +1,5 @@
 
-# Copilot Instructions: Playwright + TypeScript Test Automation
+# Copilot Instructions: Playwright + TypeScript Test Automation 
 
 ## Purpose
 
@@ -22,16 +22,15 @@ This repository contains end-to-end test automation using Playwright and TypeScr
 - `/tests/` → Contains test cases organized by feature
 - `/pages/` → Page Object classes for each screen
 - `/utils/` → Reusable helpers and data providers
-- `/config/` → Test runner and environment settings
 
 ## Coding Conventions & Best Practices
 
-- Use `expect()` for assertions.
+- Use TypeScript with strict typing.
 - Follow the Arrange–Act–Assert structure in tests.
+- Use `expect()` for assertions.
 - Centralize retries and waits in `/utils/`.
 - Prefer modular, readable code with clear naming.
-- Add a `config/env.json` file with the root URL of the site (e.g., https://automationexercise.com).
-- Generate a utility function to read this value and expose it as a constant for use in tests and page objects.
+- Add a `env.json` file with the root URL of the site. Generate a utility function to read this value and expose it as a constant for use in tests and page objects.
 - Use Playwright fixtures and hooks for setup/teardown (e.g., browser, context, page management).
 - Organize tests with `test.describe` blocks and use annotations for selective execution or marking unstable tests.
 - Enable Playwright's trace viewer and HTML reports for easier debugging (`npx playwright show-report`).
@@ -44,4 +43,10 @@ This repository contains end-to-end test automation using Playwright and TypeScr
 - Document test intent and expected outcomes with comments.
 - Review and refactor page objects and helpers for reusability.
 
----
+## Guardrails and Boundaries
+
+- Do not overwrite existing test cases unless explicitly prompted.
+- Always plan the test strategy before generating code.
+- Ensure user acceptance or review before committing generated suggestions.
+- Avoid deprecated patterns (e.g., `page.locator('div')`)—prefer semantic selectors (`getByRole`, `getByTestId`).
+- Keep folder structure consistent with feature-based and Page Object Model conventions.

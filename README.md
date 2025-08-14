@@ -11,14 +11,8 @@ This project provides end-to-end automated testing for the products page of [aut
 ## Project Structure
 ```
 ├── pages/                # Page Object classes
-│   └── productsPage.ts
 ├── tests/                # Test files
-│   └── products/
-│       └── productListing.spec.ts
 ├── utils/                # Utility helpers
-│   ├── envHelper.ts
-│   ├── testDataLoader.ts
-│   └── waitForSelectorWithRetries.ts
 ├── env.json              # Environment configuration (base URL)
 ├── package.json          # Project dependencies and scripts
 ├── .gitignore            # Git ignore rules
