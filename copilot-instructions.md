@@ -1,5 +1,5 @@
 
-# Copilot Instructions: Playwright + TypeScript QA Automation
+# Copilot Instructions: Playwright + TypeScript Test Automation
 
 ## Purpose
 
